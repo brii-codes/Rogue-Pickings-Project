@@ -5,7 +5,8 @@ body{
 }
 /***** GRID *****/
 .container{
-    width: 1200px;
+    width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 /***** ABOUT PAGE *****/
@@ -58,7 +59,8 @@ img{
 }
 .section-one{
     float:left;
-    width: 370px;
+    width: 33.3%;
+    max-width: 370px;
     padding: 10px 5px 0px 5px;
     margin: 0px 30px 0px 0px;
 }
@@ -80,7 +82,8 @@ img{
     border-right: 1px solid #dedbdc;
     border-left: 1px solid #dedbdc;
     float:left;
-    width: 350px;
+    width: 33.3%;
+    max-width: 350px;
     padding: 10px 10px 0px 10px;
 }
 
@@ -97,7 +100,8 @@ img{
 }
 .section-three{
     float:left;
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     padding: 10px 5px 0px 25px;
     margin: 0px 5px 0px 5px;
 }
