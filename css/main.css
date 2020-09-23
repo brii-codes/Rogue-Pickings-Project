@@ -1,16 +1,36 @@
 /***** BASE STYLE *****/
+html{
+    font-size:16px;
+    height: 100%;
+}
 body{
     font-family: 'Galada', cursive;
     font-family: 'Montserrat', sans-serif;  
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1em;
+    height: 100%;
 }
 /***** GRID *****/
 .container{
+    height: 100%;
     width: 90%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 /***** ABOUT PAGE *****/
 /***** HEADER *****/
+header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
 h1 span{
     color:#77a466;
     text-transform: uppercase;
@@ -19,16 +39,13 @@ h1 span{
 h1{
     text-transform: uppercase;
     font-weight: 700;
-    float: left;
 }
 /***** NAVIGATION *****/
 nav{
-    float: right;
-    word-spacing: 25px;
+    word-spacing: 1.5625em;
 }
 nav ul li{
     display: inline-block;
-    text-decoration: none;
 
 }
 nav ul li a{
@@ -38,36 +55,50 @@ nav ul li a{
     text-decoration: none;
 }
 /***** TOP SECTION *****/
+.top-section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    flex-flow: column wrap;
+}
 img{
-    border-top: 4px solid #77a466;
-    border-bottom: 4px solid #77a466;
+    border-top: 0.25em solid #77a466;
+    border-bottom: 0.25em solid #77a466;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .top-section h3{
     text-transform: uppercase;
     color: #77a466;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight:700;
 }
 .top-section p{
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 1.75em;
 }
 /***** BOTTOM SECTION *****/
 .bottom-section{
-    border-top: 1px solid #dedbdc;
+    border-top: 0.0625em solid #dedbdc;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 .section-one{
-    float:left;
     width: 33.3%;
-    max-width: 370px;
-    padding: 10px 5px 0px 5px;
-    margin: 0px 30px 0px 0px;
+    max-width: 23.125em;
+    padding: 0.625em 0.3125em 0em 0.3125em;
+    margin: 0em 1.875em 0em 0em;
 }
 .section-one h4{
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 .section-one ul{
     color: #77a466;
@@ -76,125 +107,123 @@ img{
     text-transform: capitalize;
     list-style-type: none;
     padding-left:0;
-    line-height: 35px;
+    line-height: 2.1875em;
 }
 .section-two{
-    border-right: 1px solid #dedbdc;
-    border-left: 1px solid #dedbdc;
-    float:left;
+    border-right: 0.0625em solid #dedbdc;
+    border-left: 0.0625em solid #dedbdc;
     width: 33.3%;
-    max-width: 350px;
-    padding: 10px 10px 0px 10px;
+    max-width: 21.875em;
+    padding: 0.625em 0.625em 0em 0.625em;
 }
 
 .section-two h4{
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 .section-two p{
     text-transform: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height:22px;
+    font-size: 1em;
+    line-height:1.375em;
 }
 .section-three{
-    float:left;
     width: 100%;
-    max-width: 350px;
-    padding: 10px 5px 0px 25px;
-    margin: 0px 5px 0px 5px;
+    max-width: 21.875em;
+    padding: 0.625em 0.3125em 0em 1.5625em;
+    margin: 0px 0.3125em 0em 0.3125em;
 }
 .section-three h4{
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 .section-three p{
     text-transform: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height:22px;
+    font-size: 1em;
+    line-height:1.375em;
 }
 /***** MENU PAGE****/
 
 .top-sectionmenu h3{
     text-transform: uppercase;
     color: #77a466;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight:700;
 }
 .top-sectionmenu p{
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 1.75em;
 }
 .section-onemenu{
-    float:left;
     width: 370px;
-    padding: 10px 5px 0px 5px;
-    margin: 0px 30px 0px 0px;
+    padding: 0.625em 0.3125em 0em 0.3125em;
+    margin: 0em 1.875em 0em 0em;
 }
 .section-onemenu h4{
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 .section-onemenu ul{
     text-transform: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height:30px;
+    font-size: 1em;
+    line-height:1.875em;
 }
 .section-twomenu{
-    border-right: 1px solid #dedbdc;
-    border-left: 1px solid #dedbdc;
-    float:left;
+    border-right: 0.0625em solid #dedbdc;
+    border-left: 0.0625em solid #dedbdc;
     width: 350px;
-    padding: 10px 10px 0px 10px;
+    padding: 0.625em 0.625em 0em 0.625em;
 }
 
 .section-twomenu h4{
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 .section-twomenu ul{
     text-transform: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height:30px;
+    font-size: 1em;
+    line-height:1.875em;
 }
 .section-threemenu{
-    float:left;
     width: 350px;
-    padding: 10px 5px 0px 25px;
-    margin: 0px 5px 0px 5px;
+    padding: 0.625em 0.3125em 0em 1.5625em;
+    margin: 0em 0.3125em 0em 0.3125em;
 }
 .section-threemenu h4{
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 .section-threemenu ul{
     text-transform: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height:30px;
+    font-size: 1em;
+    line-height:1.875em;
 }
 /***** FOOTER *****/
 footer{
-    clear: both;
     text-align: center;
     text-transform: uppercase;
-    font-size: 16px;
-    padding: 20px 0 0 0;
-    border-top: 1px solid #dedbdc;
+    font-size: 1em;
+    padding: 1.25em 0 0 0;
+    border-top: 0.0625em solid #dedbdc;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
 }
 footer span{
     color:#77a466;
     text-transform: lowercase;
     font-weight:normal;
     font-family: 'Galada', cursive;
-    font-size: 16px;
+    font-size: 1em;
 }
