@@ -82,6 +82,7 @@ img{
     color: #77a466;
     font-size: 1.125em;
     font-weight:700;
+    width: 100%;
 }
 .top-section p{
     font-size: 1em;
@@ -271,9 +272,19 @@ footer span{
     }
 }
 @media all and (min-width: 1200px){
-    header h1{
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    h1{
         border-bottom: none;
         text-align: left;
+        width: 30%;
+    }
+    .nav{
+        width: 45%;
     }
    
     header nav ul{
@@ -318,6 +329,5 @@ footer span{
      }
      footer{
          margin-top: 10px;
-         }
      }
 }
