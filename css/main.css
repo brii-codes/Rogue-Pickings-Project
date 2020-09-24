@@ -261,13 +261,13 @@ footer span{
        margin-bottom: 0 auto;
     } 
     .section-onemenu{
-        width: 33%;
+        max-width: 33%;
     }
     .section-twomenu{
-        width: 33%;
+        max-width: 33%;
     }
     .section-threemenu{
-        width: 33%;
+        max-width: 33%;
     }
 }
 @media all and (min-width: 1200px){
