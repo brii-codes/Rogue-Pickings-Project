@@ -99,9 +99,6 @@ img{
 }
 .section-one{
     width: 100%;
-    max-width: 23.125em;
-    padding: 0.625em 0.3125em 0em 0.3125em;
-    margin: 0em 1.875em 0em 0em;
 }
 .section-one h4{
     text-transform: uppercase;
@@ -119,8 +116,8 @@ img{
 }
 .section-two{
     width: 100%;
-    max-width: 21.875em;
-    padding: 0.625em 0.625em 0em 0.625em;
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
 }
 
 .section-two h4{
@@ -136,9 +133,6 @@ img{
 }
 .section-three{
     width: 100%;
-    max-width: 21.875em;
-    padding: 0.625em 0.3125em 0em 1.5625em;
-    margin: 0px 0.3125em 0em 0.3125em;
 }
 .section-three h4{
     text-transform: uppercase;
