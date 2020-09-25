@@ -47,6 +47,7 @@ h1{
 /***** NAVIGATION *****/
 nav{
     word-spacing: 1.5625em;
+    width: 45%;
 }
 nav ul li{
     list-style: none;
